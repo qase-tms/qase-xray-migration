@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Cache directories
+cache/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config files with secrets
+config.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Statistics output (runtime-generated)
+stats/

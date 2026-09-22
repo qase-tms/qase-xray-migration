@@ -1,0 +1,43 @@
+{
+    "qase": {
+        "api_token": "<QASE_API_TOKEN>",
+        "host": "qase.io",
+        "ssl": true
+    },
+
+    "xray": {
+        "client_id": "<XRAY_CLIENT_ID>",
+        "client_secret": "<XRAY_CLIENT_SECRET>"
+    },
+
+    "jira": {
+        "url": "https://your-site.atlassian.net",
+        "email": "",
+        "api_token": "",
+        "oauth_client_id": "",
+        "oauth_client_secret": ""
+    },
+
+    "projects": {
+        "import_all": false,
+        "import": ["<JIRA_PROJECT_KEY>"],
+        "exclude": [],
+        "mapping": {}
+    },
+
+    "cases": {
+        "preserve_ids": false
+    },
+
+    "cache": {
+        "dir": "./cache"
+    },
+
+    "logging": {
+        "level": "info",
+        "write_to_file": true,
+        "dir": "./logs"
+    },
+
+    "prefix": ""
+}
